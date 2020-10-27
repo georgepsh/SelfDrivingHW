@@ -1,0 +1,21 @@
+<launch>
+	<node   pkg    = "turtlesim" 
+		type   = "turtlesim_node" 
+		name   = "turtle1" 
+		output = "screen" />
+
+	<node   pkg    = "turtlesim" 
+		type   = "turtle_teleop_key" 
+		name   = "splinter" 
+		output = "screen" />
+
+	<node   pkg    = "rosservice" 
+		type   = "rosservice" 
+		name   = "spawn" 
+		args   = "call /spawn 0.0 0.0 0.0 leo" />
+
+	<node   pkg    = "predator" 
+		type   = "main.py" 
+		name   = "follower" 
+		output = "screen" />
+</launch>
