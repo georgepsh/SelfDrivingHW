@@ -1,7 +1,7 @@
 # ROS Homework  
   
 ## Predator  
-Make one turtle chase another turtle, which is being controlled with the keyboard  
+Make one turtle chase another turtle, which is controlled with the keyboard  
 
 ### Installation  
 1. Put "predator" folder into catkin_ws/src/ directory  
