@@ -1,0 +1,25 @@
+__pycache__/
+.vscode/
+Plots/
+*.swp
+*.pyc
+*.pkl
+*.zip
+*.py~
+.pytest_cache
+.DS_Store
+.idea
+
+# Setuptools distribution and build folders.
+/dist/
+keys/
+
+# Virtualenv
+/env
+
+.idea
+
+.ipynb_checkpoints
+
+*.egg-info
+.cache
